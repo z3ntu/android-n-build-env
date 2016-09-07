@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 
 # Prepare the Build Environment
 RUN apt-get update \
@@ -27,6 +27,7 @@ RUN apt-get update \
     make \
     python-networkx \
     ca-certificates \
+    vim \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
