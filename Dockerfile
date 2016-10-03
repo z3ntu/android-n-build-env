@@ -28,6 +28,7 @@ RUN apt-get update \
     python-networkx \
     ca-certificates \
     vim \
+    schedtool \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
