@@ -43,5 +43,4 @@ ENV PATH /usr/local/repo/bin:$PATH
 
 # Create working directory
 RUN mkdir -p /var/android/
-RUN export USER=$(whoami) # this is needed by Androids 'jack'
 WORKDIR /var/android/
