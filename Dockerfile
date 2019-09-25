@@ -31,6 +31,7 @@ RUN apt-get update \
     schedtool \
     bsdmainutils \
     imagemagick \
+    python3 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
