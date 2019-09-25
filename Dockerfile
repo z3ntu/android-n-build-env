@@ -32,6 +32,7 @@ RUN apt-get update \
     bsdmainutils \
     imagemagick \
     python3 \
+    ccache \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
